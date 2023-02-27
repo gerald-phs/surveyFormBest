@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta viewport="width=device-width" content="initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Egg Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title" class="impactfulShadow">What do you think about <span class="textGradient">eggs?</span>🥚</h1>
+    <p id="description">🪺 Fragile? Really throwable? Are eggs behind it all? We'd love to hear your thoughts!</p>
+
+<form id="survey-form">
+  <label for="name" id="name-label">Good evening! What can we call you tonight?</label><br>
+    <input type="text" id="name" name="name" placeholder="Jackson Pollock" required><br>
+  <label for="egg-numbers" id="number-label">How many eggs do you possess? (Minimum required for submission: <code>40 egg</code>)</label><br>
+    <input type="number" id="number" min="40" max="900" placeholder="247"><br>
+  <label for="email" id="email-label">Flying Exo-Raven Message Delivery Address:</label><br>
+    <input type="email" id="email" name="email" placeholder="poLLocK-666@domain.io" required><br>
+    <hr>
+  <label for="dropdown">Do you have any dietary restrictions we should be aware of? Select below:</label><br>
+    <select id="dropdown">
+      <option value="placeholder">(select one)</option>
+      <option value="peanuts">Peanuts</option>
+      <option value="shellfish">Shellfish</option>
+      <option value="wheat">Wheat</option>
+      <option value="milk">Milk</option>
+    </select><br>
+  <label for="meat-preferences" id="meat-preferences">What are your dietary preferences regarding meat? Select all that apply:</label><br>
+  <input type="checkbox" id="vegetarian" name="vegetarian" value="Vegetarian">
+    <label for="vegetarian">Vegetarian</label><br>
+  <input type="checkbox" name="pescatarian" value="Pescatarian">
+    <label for="pescatarian" id="pescatarian">Pescatarian</label><br>
+  <input type="checkbox" id="flexitarian" name="flexitarian" value="Flexitarian">
+    <label for="flexitarian">Flexitarian</label><br>
+  <input type="checkbox" id="paleo" name="paleo" value="Paleo">
+    <label for="paleo">Paleo</label><br>
+  <input type="checkbox" id="keto" name="keto" value="Keto">
+    <label for="keto">Keto</label><br>
+  <input type="checkbox" id="carnivore" name="carnivore" value="Carnivore">
+    <label for="carnivore">Carnivore</label><br>
+  <hr>
+  <label for="drink-choice" id="drink-choice">What's your poison?</label><br>
+  <label for="wine">
+    <input type="radio" id="wine" name="drinks" value="Wine"> Wine</label><br>
+  <label for="tequila">
+  <input type="radio" id="tequila" name="drinks" value="Tequila"> Tequila</label><br>
+  <label for="order" id="order">What kind of food would you like tonight? Please, do be thorough:</label><br>
+    <textarea id="order" name="order" rows="10" cols="100" placeholder="I would like Dragonfire Shrimp with a dash of Olivol..."></textarea><br>
+<button type="submit" id="submit">Olivol in!</button>
+</form>
+  </body>
+</html>

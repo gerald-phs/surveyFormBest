@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+  color: azure;
+  background-image: url('ainsley-2048x2048.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: transparent;
+  font-family: 'Playfair Display', serif, Arial, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(128, 128, 0, 0.5));
+  border-radius: 20px;
+}
+
+
+.textGradient {
+
+background: linear-gradient(90deg, blue, cyan, white);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+
+}
+
+#title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 800;
+  font-style: italic;
+  
+}
+
+#description {
+  text-align: center;
+  font-size: 40px;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+
